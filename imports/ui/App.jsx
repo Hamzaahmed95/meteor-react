@@ -10,13 +10,19 @@ export default class App extends Component {
             <div className="catch-of-the-day">
                 <div className="row">
                     <div className="col-md-4">
+                        <div className="center">
                         <Header name="header of store"/>
+                            </div>
                     </div>
                     <div className="col-md-4">
+                        <div className="center">
                         <Order />
+                            </div>
                     </div>
                     <div className="col-md-4">
-                        <Inventory />
+                        <div className="center">
+                            <Inventory />
+                            </div>
                     </div>
                 </div>
             </div>
