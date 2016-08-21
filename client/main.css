@@ -1,0 +1,7 @@
+/* CSS declarations go here */
+.center {
+    margin: auto;
+    width: 20%;
+    border: 3px solid black;
+    padding: 10px;
+}
