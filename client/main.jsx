@@ -6,6 +6,8 @@ import StorePicker from '../imports/ui/StorePicker.jsx';
 
 import App from '../imports/ui/App.jsx';
 
+import ReactRoutes from '../imports/ui/ReactRoutes.jsx'
+
 Meteor.startup(() => {
-  render(<App />, document.getElementById('render-target'));
+  render(< ReactRoutes />, document.getElementById('render-target'));
 });

@@ -11,7 +11,7 @@ export default class App extends Component {
                 <div className="row">
                     <div className="col-md-4">
                         <div className="center">
-                        <Header name="header of store"/>
+                        <Header name="hader of store"/>
                             </div>
                     </div>
                     <div className="col-md-4">
