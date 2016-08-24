@@ -9,5 +9,6 @@
     <orderEntry type="library" name="meteor-react node_modules" level="project" />
     <orderEntry type="library" name="meteor-packages-auto-import-browser" level="project" />
     <orderEntry type="library" name="meteor-packages-auto-import-npm" level="project" />
+    <orderEntry type="library" name="react-DefinitelyTyped" level="application" />
   </component>
 </module>
