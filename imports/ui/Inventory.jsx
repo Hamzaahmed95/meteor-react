@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
+import AddFishForm from './AddFishForm.jsx';
 
-export default class Inventory extends Component {
-    render() {
+var Inventory = React.createClass({
+    render : function() {
         return (
-            <h2>Inventory</h2>
-        );
+            <div>
+            <h2>Inventory </h2>
+            
+                <AddFishForm {...this.props} />
+            </div>
+        )
     }
-
-
-}
+});
+export default Inventory;

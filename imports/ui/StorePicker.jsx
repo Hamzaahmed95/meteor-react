@@ -7,9 +7,9 @@ import { Router, Route, browserHistory } from 'react-router';
 import {createHistory} from 'history'
 
 const history = createHistory();
-export default class StorePicker extends Component {
+var StorePicker =React.createClass({
 
-
+    mixins : [History],
     goToStore(event){
         event.preventDefault();
         console.log("here");
@@ -17,17 +17,18 @@ export default class StorePicker extends Component {
         console.log("now "+ storeID);
         history.push('/signIn/' + storeID);
         //event.target.s.value ='';
-    }
-    render() {
+    },
+    render : function () {
+        
         return (
-            <form className="store-selector" onSubmit={this.goToStore.bind(this)}>
+            <form className="store-selector" onSubmit={this.goToStore}>
                 <h2>Please Enter a Store</h2>
-                <input type="text" name="s" defaultValue={h.getFunNames()} required />
+                <input type="text" name="s" defaultValue={h.getFunNames()}  />
                 <input type="Submit" />
             </form>
 
-        );
+        )
     }
 
-
-}
+});
+export default StorePicker;
