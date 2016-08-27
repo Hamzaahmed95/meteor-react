@@ -1960,6 +1960,7 @@
         <item url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.9.1/npm/node_modules/babel-plugin-transform-es2015-literals/lib/index.js" />
         <item url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.9.1/npm/node_modules/babel-plugin-transform-flow-strip-types/lib/index.js" />
         <item url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.9.1/npm/node_modules/babel-plugin-transform-react-jsx-source/lib/index.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/tmeasday_check-npm-versions/0.2.0/npm/node_modules/semver/semver.js" />
         <item url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.9.1/npm/node_modules/babel-plugin-transform-es2015-parameters/lib/index.js" />
         <item url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.9.1/npm/node_modules/babel-plugin-transform-es2015-parameters/lib/default.js" />
         <item url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.9.1/npm/node_modules/babel-plugin-transform-es2015-parameters/lib/destructuring.js" />
@@ -6874,6 +6875,7 @@
       <root url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.9.1/npm/node_modules/babel-plugin-transform-es2015-literals/lib/index.js" />
       <root url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.9.1/npm/node_modules/babel-plugin-transform-flow-strip-types/lib/index.js" />
       <root url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.9.1/npm/node_modules/babel-plugin-transform-react-jsx-source/lib/index.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/tmeasday_check-npm-versions/0.2.0/npm/node_modules/semver/semver.js" />
       <root url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.9.1/npm/node_modules/babel-plugin-transform-es2015-parameters/lib/index.js" />
       <root url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.9.1/npm/node_modules/babel-plugin-transform-es2015-parameters/lib/default.js" />
       <root url="file://$USER_HOME$/.meteor/packages/babel-compiler/6.9.1/npm/node_modules/babel-plugin-transform-es2015-parameters/lib/destructuring.js" />

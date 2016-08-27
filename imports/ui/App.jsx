@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component,PropTypes } from 'react';
 
 import Header from './Header.jsx';
 import Order from './Order.jsx';
 import Inventory from './Inventory.jsx';
 import Fish from './Fish.jsx';
-
+import  { Fishes }  from '../api/Fishes.jsx';
 
 var App =React.createClass({
 
@@ -14,6 +14,7 @@ var App =React.createClass({
             order: {}
         }
     },
+
     addtoOrder : function (key) {
         this.state.order[key] = this.state.order [key] + 1 || 1;
         this.setState({ order : this.state.order});

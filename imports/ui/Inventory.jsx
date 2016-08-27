@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import AddFishForm from './AddFishForm.jsx';
+import  { Fishes }  from '../api/Fishes.jsx';
 
 var Inventory = React.createClass({
     render : function() {

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import  History from 'react-router';
 import h from './helpers.jsx';
+import  { Fishes }  from '../api/Fishes.jsx';
+
 import ReactDOM from 'react-dom';
 import { Router, Route, browserHistory } from 'react-router';
 
